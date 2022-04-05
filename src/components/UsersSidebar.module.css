@@ -1,0 +1,18 @@
+.sidebar{
+    flex: 2;
+}
+.user{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    cursor: pointer;
+}
+.user:hover{
+    background-color: rgba(128, 128, 128, 0.5);
+}
+.img{
+    border-radius: 100px;
+    width: 30px;
+    margin-right: 5px;
+    margin: 3px;
+}

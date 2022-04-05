@@ -1,0 +1,19 @@
+.main{
+    position: fixed;
+    bottom: 0;
+    width: 80%;
+    background-color: brown;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+.ip{
+    padding: 8px;
+    width: 70%;
+    border: 1px solid blue;
+    outline: none;
+    border-radius: 6px;
+}

@@ -1,0 +1,16 @@
+.main{
+    margin-top: 10vh;
+    min-height: 80vh;
+    max-height: 80vh;
+    margin-bottom: 10vh;
+    overflow-y: scroll;
+}
+.message{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+.username{
+    font-weight: 500;
+    margin-right: 10px;
+}

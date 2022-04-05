@@ -1,0 +1,35 @@
+.page{
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 100vh;
+}
+.box{
+    position: absolute;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    height: 30vh;
+    min-height: 200px;
+    width: 50%;
+    background-color: aquamarine;
+    margin-left: 25%;
+    margin-top: 20vh;
+    border-radius: 6px;
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.head{
+    font-size: large;
+    font-weight: 700;
+}
+.ip{
+    padding: 10px;
+    outline: none;
+    border: 1px solid blue;
+    margin-top: 30px;
+    font-size: 16px;
+    border-radius: 6px;
+}
